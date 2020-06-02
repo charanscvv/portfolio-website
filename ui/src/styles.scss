@@ -1,0 +1,35 @@
+
+@import 'common.scss';
+@import 'variables.scss';
+
+// font-family: 'Montserrat Subrayada', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Parisienne', cursive;
+// font-family: 'Snippet', sans-serif;
+
+.full-height{
+    min-height:100vh !important;
+}
+
+
+.home{
+    min-height:100vh;
+    height:100%;
+    background:$p_lav_dark;
+    background-image: linear-gradient(to top right, #a334929e, #392471);
+}
+
+.topics{
+    color:$s_lav;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    p{
+        padding:15px;
+        font-size: large;
+        font-weight:500;
+        &:hover{
+            color:white;
+            font-size:130%;
+            cursor:pointer;
+        }
+    }
+}

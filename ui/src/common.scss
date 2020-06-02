@@ -1,0 +1,53 @@
+.bold{
+  font-weight: 700;
+  &div{
+    font-weight: 700;
+  }
+  &input{
+    font-weight: 700;
+  }
+}
+.light-bold{
+  font-weight: 600;
+}
+
+.white{
+  color: white;
+}
+
+.break-word{
+  word-wrap: break-word;
+}
+
+label{
+  margin-bottom:0px !important;  
+}
+
+.margin{
+  margin: 10px;
+}
+
+.padding{
+  padding: 5px;
+}
+
+.pointer{
+  cursor: pointer !important;
+}
+
+.no-border{
+  border: none !important;
+  border-color: none !important;
+}
+
+.no-margin{
+  margin: none !important;
+}
+
+.no-padding{
+  padding: none !important;
+}
+
+body{
+  margin:0px !important
+}
