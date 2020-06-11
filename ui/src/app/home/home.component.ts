@@ -10,6 +10,11 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    setTimeout(() => {
+      document.getElementsByClassName('text-anim')[0].classList.add('animate');
+    }, 100);
+
+    
   }
 
 }

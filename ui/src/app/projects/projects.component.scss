@@ -1,0 +1,28 @@
+@import 'src/variables.scss';
+
+.memories{
+    padding:30px 50px;
+    flex-wrap: wrap;
+    .memory{
+        padding:20px;
+        margin:20px;
+        background-color: #ffffff22;
+        border-radius: 10px;
+        .photo{
+            img{
+                height:250px;
+            }
+        }
+        .text{
+            min-height:50px;
+            .title{
+                font-size:2rem;
+            }
+            .description{
+                font-size:1.2rem;
+                opacity:0.8;
+            }
+        }
+    }
+
+}

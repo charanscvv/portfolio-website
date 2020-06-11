@@ -6,30 +6,58 @@
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Parisienne', cursive;
 // font-family: 'Snippet', sans-serif;
+// font-family: 'Great Vibes', cursive;
+// font-family: 'Rajdhani', sans-serif;
 
 .full-height{
     min-height:100vh !important;
 }
 
-
-.home{
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+.wallpaper{
     min-height:100vh;
     height:100%;
     background:$p_lav_dark;
     background-image: linear-gradient(to top right, #a334929e, #392471);
+    padding-top:150px;
+    color:white;
+}
+
+.title-font{
+    font-size:55px !important;
+    font-family: 'Great Vibes', cursive !important;
 }
 
 .topics{
     color:$s_lav;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    background: transparent;
+    margin-bottom:-100px;
+    font-family: 'Text Me One', sans-serif;
     p{
         padding:15px;
         font-size: large;
-        font-weight:500;
         &:hover{
             color:white;
-            font-size:130%;
+            font-size:120%;
             cursor:pointer;
         }
+    }
+}
+
+.active{
+    color:white;
+    font-size:120%;
+    font-weight: bold;
+}
+
+.icon{
+    opacity:0.5;
+    height:45px;
+    padding:5px 10px;
+    &:hover{
+        opacity:1;
+        cursor: pointer;
     }
 }
