@@ -10,13 +10,14 @@
         border-radius: 10px;
         .photo{
             img{
-                height:250px;
+                height:150px;
+                padding:5px;
             }
         }
         .text{
             min-height:50px;
             .title{
-                font-size:2rem;
+                font-size:1.8rem;
             }
             .description{
                 font-size:1.2rem;

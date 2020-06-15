@@ -1,0 +1,89 @@
+.contact{
+    margin-left: 100px;
+    width: 600px;
+    height: 600px;
+}
+.animate{
+    animation: shake 0.5s;
+}
+
+img{
+    opacity:0.2 !important;
+    &:hover{
+        opacity:0.7 !important;
+    }
+}
+
+.one{
+    width: 200px;
+    height: 200px;
+    background: white;
+    position: relative;
+    margin-left: 150px;
+    border-radius: 50%;
+    box-shadow: -7px 4px 20px 8px #00000042;
+    img{
+        height: 150px;
+        filter:none !important;
+    }
+}
+
+.two{
+    width: 80px;
+    height: 80px;
+    background: white;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 150px;
+    border-radius: 50%;
+    box-shadow: -7px 4px 20px 8px #00000042;
+}
+
+
+.three{
+    width: 75px;
+    height: 75px;
+    background: white;
+    position: relative;
+    margin-left: 180px;
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: -7px 4px 20px 8px #00000042;
+}
+.four{
+    width: 80px;
+    height: 80px;
+    background: white;
+    position: relative;
+    margin-left: 235px;
+    border-radius: 50%;
+    box-shadow: -7px 4px 20px 8px #00000042;
+}
+.five{
+    width: 200px;
+    height: 200px;
+    background: white;
+    position: relative;
+    margin-left: 325px;
+    margin-top: -80px;
+    border-radius: 50%;
+    box-shadow: -7px 4px 20px 8px #00000042;
+    img{
+        filter: invert(1);
+        height: 147px;
+    }
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
