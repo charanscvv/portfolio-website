@@ -1,15 +1,18 @@
-<div class="wallpaper">
+<div>
 
-    <div  fxLayout="row" fxLayoutAlign="space-around center">
-        
-        <div  fxLayout="row" fxLayoutAlign="space-around center" style="width:550px;height:650px !important"> 
+    <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="space-around center" >
+        <div class="hide-sm" fxLayout="row" fxLayoutAlign="space-around center" style="width:550px;height:650px !important"> 
            <img class="open-image main-img" src="assets/images/main.png">
         </div>
-        <div class="line">
+        <div class="line hide-sm">
             <div class="vertical-line">
             </div>
         </div>
-        <div style="min-height:500px" fxLayout="column" fxLayoutAlign="space-between center">
+        <div fxHide fxShow.lt-sm> <img style="
+                height: 150px;
+                border-radius: 50%;
+                box-shadow: 1px 1px 13px 7px #00000047;" src="assets/images/main.png"></div>
+        <div style="min-height:450px" fxLayout="column" fxLayoutAlign="space-between center">
             <div>
                 <div class="text-anim title-font">
                     <span>H</span>
@@ -38,19 +41,27 @@
                     <span>a</span>
                 </div>
             </div>
-            
+            <div class="preface">
+                I'm glad that you are here! I am Vaishnavi Lolla, A graduate student pursuing Master's in Business Analytics and Project Management at the University of Connecticut.
+<br><br>
+I'm passionate about using technology to solve challenging business problems and contribute the best I can by pushing the envelope for greater good.
+<br><br>
+Feel free to view my profile to get to know more about me!
+<br><br>
+Feel free to contact me using any of the the platforms mentioned or shoot me an e-mail at vaishnavi.lolla@gmail.com</div>
             <div  fxLayout="row" fxLayoutAlign="space-around center" >
                 <div class="links">
                     <a href="https://www.linkedin.com/in/vaishnavi-lolla-288374176/" target="_blank"> <img style="filter:invert()" class="icon" src="assets/images/linkedin-icon.png"></a>
                     <a href="https://github.com/vaishnavilolla" target="_blank">  <img class="icon" src="assets/images/git-icon.png"></a>
-                   
-                  
                 </div>
             </div>
-            
         </div>
-       
+    </div>
 
+
+    <div class="mobile"> 
+        <app-projects></app-projects>
+        <app-contact></app-contact>
     </div>
 
 </div>

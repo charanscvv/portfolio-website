@@ -23,11 +23,21 @@ body{
     background-image: linear-gradient(to top right, #a334929e, #392471);
     padding-top:150px;
     color:white;
+    
+  @media only screen and (max-width: 768px) {
+    padding-top:30px;
+  }
 }
 
 .title-font{
     font-size:55px !important;
     font-family: 'Great Vibes', cursive !important;
+}
+
+.heading{
+    font-size:1.5rem;
+    
+    font-family: 'Text Me One', sans-serif !important;
 }
 
 .topics{

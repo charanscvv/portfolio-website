@@ -27,14 +27,31 @@
     
     .text-anim {
       color: #ffffff;
-      font-size: 32px;
+      font-size: 4rem ;
       text-align: center;
       font-family: 'Oswald', sans-serif;
       text-align: left;
+      
     }
-    
-    
-    
+    @media only screen and (max-width: 768px) {
+      .text-anim {
+        font-size: 2.3rem !important ;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      .hide-sm {
+        display:none !important;
+      }
+    }
+    .mobile{
+      padding:80px 0px 40px 0px;
+    }
+    @media only screen and (min-width: 768px) {
+      .mobile {
+        display:none !important;
+      }
+    }
+
     /* ==========================================================================
          Main Animation	 ========================================================================== */
     
@@ -89,4 +106,16 @@
   border-radius: 50%;
   height:480px;
   box-shadow: 7px 15px 30px 1px #00000060;
+}
+
+.preface{
+  padding:20px;
+  text-align: justify;
+  max-width:500px;
+  
+  @media only screen and (max-width: 768px) {
+    padding:0px 15px;
+    margin-top:-20px;
+    font-size:0.8rem;
+  }
 }
